@@ -1,0 +1,121 @@
+.navbar ul {
+    /*
+        Remove bullet points
+    */
+    list-style: none;
+    width: 500px;
+    margin: 0 auto;
+    /*
+        No padding
+    */
+    padding: 0;
+
+    background-color: rgb(32, 121, 76);
+    text-align: center;
+}
+
+/*
+    Style individual list items.
+*/
+.navbar li {
+    width: 150 px;
+    background-color:rgb(23, 61, 92);
+    border: 1px solid purple;
+    /*
+        Show the navbar elements next to each other instead of on top of each
+        other
+    */
+    padding: 10px;
+    display: inline-block;
+    line-height: 40px;
+}
+
+
+.navbar a {
+    color:#fff;
+    text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ECE8DB;
+}
+button {
+  margin: 5px;
+  padding: 5px;
+  background-color: #E5D2C4;
+}
+
+.music-title {
+  cursor: pointer;
+}
+/* FormGroup{
+
+  padding-bottom: 10px;
+} */
+button:hover{
+  background-color: #E5D2C4;
+}
+/* #modal {
+  width:50px;
+  hight:50px;
+  background-color:red;
+} */
+/* .tab-list > span {
+    padding: 5px 8px;
+    border: 1px solid #282c34;
+    border-radius: 10px;
+    margin: 5px;
+    /* Spans do not have margins on top or bottom.
+       However, this can be fixed with an inline-block
+    per https://stackoverflow.com/a/11700999.
+    display: inline-block;
+    cursor: pointer;
+  }*/
+
+/* .tab-list > span.active {
+  background-color: #282c34;
+  color: #ffffff;
+  } */
+  #modal {
+  width:50px;
+  hight:50px;
+  background-color:red;
+}
+container{
+text-align: center;
+border: 7px solid red;
+width: 300px;
+height: 200px;
+padding-top: 100px;
+}
+#btn{
+font-size: 25px;
+text-align: center;
+}
+
+
+  .Stitle{
+    text-align: center;
+    color: #A0816C;
+
+  }
+.b{
+  margin: 5px;
+  padding: 10px;
+  background-color: #E5D2C4;
+}
+.b:hover{
+  background-color: #F7E2D1;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
